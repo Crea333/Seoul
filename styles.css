@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #12111c;
+}
+
+.hero{
+    display:flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url("images/seoul.gif");
+    background-size:cover;
+    color:white;
+    margin: 0 auto;
+    text-shadow: 0 0 5px black ;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+
+.activity{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:60px 30px;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color:#f0ddcd;
+
+}
+
+.hanbok{
+    width: 370px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-image: url("images/hanbok.jpeg");
+}
+
+.hanbok:hover{
+    background-image: url("images/dance.gif");
+    background-size: cover;
+}
+
+.food{
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-image: url("images/food.jpeg");
+}
+
+.food:hover{
+    background-image: url("images/tofu.gif");
+}
+
+.kpop{
+    width: 370px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-image: url("images/kpop.jpeg");
+}
+
+.kpop:hover{
+    background-image: url("images/bts.gif");
+}
+
+.avatar{
+    width: 150px;
+    border-radius: 6px;
+}
+
+.bio{
+    padding: 20px;
+    display: flex;
+    width: 450px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0ddcd;
+    border-bottom: #6cc6db solid 8px;
+    border-radius: 6px;
+}
+
+.text{
+    width: 220px;
+    margin: 0 auto;
+    font-family: 'Nanum Myeongjo', serif; 
+    font-size: 15px;
+}
+
+.me{
+    margin-top: 8px;
+}
